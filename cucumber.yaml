@@ -1,0 +1,6 @@
+---
+  html: --format html --out=log/report.html
+  json: --format json --out=log/report.json
+  pretty: --format pretty
+  progress: --format progress
+  

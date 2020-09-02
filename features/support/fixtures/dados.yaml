@@ -18,12 +18,12 @@ cadastro:
   expected_message: Welcome to your account. Here you can manage all of your personal
     information and orders.
 login:
-  email: viuva@negra.com.br
-  password: abc123
+  email: test123@test123.com.br
+  password: AME123
   expected_message: Welcome to your account. Here you can manage all of your personal
     information and orders.
 login_unsuccessful:
-  email: viuva@negra.com.br
+  email: test123@test123.com.br
   password: '12345'
   alert: Authentication failed
 login_blank:
