@@ -7,8 +7,8 @@ Funcionalidade: Register
 
 @new_user
 Esquema do Cenario: New user
-  Dado que eu cliquei no botão para me cadastrar com um email válido
-  Quando eu preencho o formulário com meus <dados> 
+  Dado que eu cliquei no botão para me cadastrar com <dados> válidos
+  Quando eu preencho o formulário com meus dados
   Então eu devo ser caapz de me logar no sistema
 
   Exemplos:

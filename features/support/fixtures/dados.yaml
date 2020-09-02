@@ -1,12 +1,12 @@
-dados:
+cadastro:
   title: "Mr."
   first_name: "John"
   last_name: "Doe"
   email: "teste@teste.com.br"
-  password: "123"
-  day_of_birth: 01
+  password: "12345678"
+  day_of_birth: "26"
   month_of_birth: "March"
-  year_of_birth: 1970
+  year_of_birth: "1970"
   address: "Nothinghill Ave, 0"
   city: "New York"
   state: "New York"
