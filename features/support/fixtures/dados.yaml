@@ -1,16 +1,32 @@
+---
 cadastro:
-  title: "Mr."
-  first_name: "John"
-  last_name: "Doe"
-  email: "teste@teste.com.br"
-  password: "12345678"
-  day_of_birth: "26"
-  month_of_birth: "March"
-  year_of_birth: "1970"
-  address: "Nothinghill Ave, 0"
-  city: "New York"
-  state: "New York"
+  title: Mr.
+  first_name: John
+  last_name: Doe
+  email: qa_challenge@ame.com.br
+  password: AME123
+  day_of_birth: '26'
+  month_of_birth: March
+  year_of_birth: '1970'
+  address: Nothinghill Ave, 0
+  city: New York
+  state: New York
   postal_code: 10001
-  country: "United States"
+  country: United States
   mobile_phone: 202-555-0106
-  address_alias: "Home"
+  address_alias: Home
+  expected_message: Welcome to your account. Here you can manage all of your personal
+    information and orders.
+login:
+  email: viuva@negra.com.br
+  password: abc123
+  expected_message: Welcome to your account. Here you can manage all of your personal
+    information and orders.
+login_unsuccessful:
+  email: viuva@negra.com.br
+  password: '12345'
+  alert: Authentication failed
+login_blank:
+  email: ''
+  password: ''
+  alert: An email address required.

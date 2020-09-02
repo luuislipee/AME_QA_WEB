@@ -5,7 +5,7 @@ Funcionalidade: Register
   Eu devo ser capaz de me cadastrar
   Preenchendo o formulário
 
-@new_user
+@register_new_user
 Esquema do Cenario: New user
   Dado que eu cliquei no botão para me cadastrar com <dados> válidos
   Quando eu preencho o formulário com meus dados
