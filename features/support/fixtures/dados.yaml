@@ -3,7 +3,7 @@ cadastro:
   title: Mr.
   first_name: John
   last_name: Doe
-  email: qa_challenge@ame.com.br
+  email: qa_challenge_test@ame.com.br
   password: AME123
   day_of_birth: '26'
   month_of_birth: March
@@ -18,12 +18,12 @@ cadastro:
   expected_message: Welcome to your account. Here you can manage all of your personal
     information and orders.
 login:
-  email: test123@test123.com.br
+  email: qa_challenge@ame.com.br
   password: AME123
   expected_message: Welcome to your account. Here you can manage all of your personal
     information and orders.
 login_unsuccessful:
-  email: test123@test123.com.br
+  email: qa_challenge@ame.com.br
   password: '12345'
   alert: Authentication failed
 login_blank:
