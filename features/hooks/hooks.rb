@@ -10,6 +10,12 @@ Before do
   page.current_window.resize_to(1920, 1080)
 end
 
+After do
+  temp_shot = page.save_screenshot('log/temp_shot.png')
+  screenshot = Base64.encode64(File.open(temp_shot, 'rb').read)
+  attach(screenshot, 'image/png')
+end
+
 today_date = DateTime.now
 @current_date = today_date.to_s.tr(':', '-')
 
